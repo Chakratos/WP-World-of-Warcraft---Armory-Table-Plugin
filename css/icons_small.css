@@ -1,0 +1,26 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:08c2ce8c64b034aa4545c81605e84fd0:0fe84579b1539603d2edb29d2b4726d9:a70820c758e9e7c43dee0b4456baef12$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(Atlas.png);}
+
+.class_10_small {width:18px; height:18px; background-position: -202px -2px}
+.class_11_small {width:18px; height:18px; background-position: -182px -2px}
+.class_1_small {width:18px; height:18px; background-position: -162px -2px}
+.class_2_small {width:18px; height:18px; background-position: -142px -2px}
+.class_3_small {width:18px; height:18px; background-position: -122px -2px}
+.class_4_small {width:18px; height:18px; background-position: -102px -2px}
+.class_5_small {width:18px; height:18px; background-position: -82px -2px}
+.class_6_small {width:18px; height:18px; background-position: -62px -2px}
+.class_7_small {width:18px; height:18px; background-position: -42px -2px}
+.class_8_small {width:18px; height:18px; background-position: -22px -2px}
+.class_9_small {width:18px; height:18px; background-position: -2px -2px}
+.wow_icon_16x16 {width:16px; height:16px; background-position: -222px -2px}

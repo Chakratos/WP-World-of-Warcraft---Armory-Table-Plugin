@@ -1,0 +1,26 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:37e8e75e71c8833aaddadfbad54d39cf:e871557ca6ffa204365c5e5a9238308b:6c61fd443aa32ab583df67f670a34444$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(icons_normal.png);}
+
+.class_1 {width:36px; height:36px; background-position: -382px -2px}
+.class_10 {width:36px; height:36px; background-position: -344px -2px}
+.class_11 {width:36px; height:36px; background-position: -306px -2px}
+.class_2 {width:36px; height:36px; background-position: -268px -2px}
+.class_3 {width:36px; height:36px; background-position: -230px -2px}
+.class_4 {width:36px; height:36px; background-position: -192px -2px}
+.class_5 {width:36px; height:36px; background-position: -154px -2px}
+.class_6 {width:36px; height:36px; background-position: -116px -2px}
+.class_7 {width:36px; height:36px; background-position: -78px -2px}
+.class_8 {width:36px; height:36px; background-position: -40px -2px}
+.class_9 {width:36px; height:36px; background-position: -2px -2px}
+.wow_icon_32x32 {width:32px; height:32px; background-position: -420px -2px}
