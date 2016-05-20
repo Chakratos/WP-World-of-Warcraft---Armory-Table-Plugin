@@ -288,7 +288,7 @@ class wow_armory_table
 
         $this->get_classes(get_locale());
 
-        $guildm_data = file_get_contents('http://'.$region.'.battle.net/api/wow/guild/'.$server.'/'.$guild.'?fields=members');
+        $guildm_data = file_get_contents('https://'.$region.'.api.battle.net/wow/guild/'.$server.'/'.$guild.'?fields=members&locale='.$lang.'&apikey=y5xtbfs6869qcgm2e2czdf4bz9uke8ht');
         $guildm_data = json_decode($guildm_data);
         $members = $guildm_data->members;
 
@@ -302,7 +302,7 @@ class wow_armory_table
         if($lang == "")
             $lang = get_locale();
 
-        $classes = file_get_contents('http://eu.battle.net/api/wow/data/character/classes?locale='.$lang);
+        $classes = file_get_contents('https://eu.api.battle.net/wow/data/character/classes?locale='.$lang.'&apikey=y5xtbfs6869qcgm2e2czdf4bz9uke8ht');
         $classes = json_decode($classes);
         $classes = $classes->classes;
 
@@ -355,7 +355,7 @@ class wow_armory_table
         $region = $options['region'];
         $region = strtolower($region);
 
-        $guildm_data = file_get_contents('http://'.$region.'.battle.net/api/wow/guild/'.$server.'/'.$guild.'?fields=members');
+        $guildm_data = file_get_contents('https://'.$region.'api.battle.net/wow/guild/'.$server.'/'.$guild.'?fields=members&locale=de_DE&apikey=y5xtbfs6869qcgm2e2czdf4bz9uke8ht');
         $guildm_data = json_decode($guildm_data);
         $members = $guildm_data->members;
 
@@ -400,7 +400,7 @@ class wow_armory_table
 
         foreach($members as $member)
         {
-            $prog_data = file_get_contents('http://'.$region.'.battle.net/api/wow/character/'.$server.'/'.$member->name.'?fields=progression&locale='.get_locale());
+            $prog_data = file_get_contents('https://'.$region.'api.battle.net/wow/character/'.$server.'/'.$member->name.'?fields=progression&locale=de_DE&apikey=y5xtbfs6869qcgm2e2czdf4bz9uke8ht');
             $prog_data = json_decode($prog_data);
             $raids = $prog_data->progression->raids;
 
